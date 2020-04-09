@@ -17,10 +17,10 @@ Calculate the R-squared value
 
 ## Libraries used:
 
-pandas for data preparation
-numpy for data manipulation
-matplotlib for data visualization
-sklearn for statistical modeling
+- pandas for data preparation
+- numpy for data manipulation
+- matplotlib for data visualization
+- sklearn for statistical modeling
 
 ## R-squared value meaning:
 
@@ -28,4 +28,4 @@ The r-squared value, or correlation of determination, explains how closely corre
 
 ## Datasource (updated daily):
 
-https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
+[(https://github.com/nytimes/covid-19-data/blob/master/us-states.csv)]
