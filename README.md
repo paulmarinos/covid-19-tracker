@@ -28,4 +28,4 @@ The r-squared value, or correlation of determination, explains how closely corre
 
 ## Datasource (updated daily):
 
-[(https://github.com/nytimes/covid-19-data/blob/master/us-states.csv)]
+https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
