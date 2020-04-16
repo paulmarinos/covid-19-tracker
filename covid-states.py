@@ -12,9 +12,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 
-df = pd.read_csv('covid - states.csv')				#read data from csv
-df = df[['date', 'state', 'cases', 'deaths']]			#select columns from csv
-df['mort rate'] = df.deaths / df.cases * 100			#add calculated column
+df = pd.read_csv('covid - states.csv')
+df = df[['date', 'state', 'cases', 'deaths']]
+df['mort rate'] = df.deaths / df.cases * 100
 
 
 def filter_state(df):
