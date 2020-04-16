@@ -24,7 +24,7 @@ Calculate the R-squared value
 
 ## R-squared value meaning:
 
-The r-squared value, or correlation of determination, explains how closely correlated the dependent value (cases) is with the independent value (deaths). As the number of cases increases, the number of deaths to the virus should increase as well. If the cases and deaths of a state do not have a linear relationship then the way the state is treating patients infected with the disease should be studied in order to help explain why, so that they can modify their treatment practices if its recovery rate is subpar or so that other states can see if they can emulate their treatment practices if the state has a higher recovery rate / mortality rate.
+The r-squared value, or correlation of determination, explains how closely correlated the dependent value (cases) is with the independent value (deaths). As the number of cases increases, the number of deaths to the virus should increase as well. If the cases and deaths of a state do not have a linear relationship then the way the state is treating patients infected with the disease should be studied.
 
 ## Datasource (updated daily):
 
