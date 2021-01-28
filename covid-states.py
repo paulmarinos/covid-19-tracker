@@ -1,6 +1,6 @@
 '''
 author:  paul marinos
-contact: paul.marinos@baruch.cuny.edu
+contact: marinos21paul@gmail.com
 datasource: https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
 last updated: 2020-04-07
 '''
