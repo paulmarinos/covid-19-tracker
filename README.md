@@ -8,12 +8,12 @@ How effective has each U.S. state been at treating patients diagnosed with the c
 
 ## Objectives: 
 
-Analyze the number of COVID-19 cases and deaths by U.S. state over time
-Calculate COVID-19 mortality rate by state
-Create a tool that will quickly visualize the data using tables and charts
-Allow user to search by either state or date and sort data by columns
-Allow user to plot the data and fit a linear regression model
-Calculate R-squared value
+- Analyze the number of COVID-19 cases and deaths by U.S. state over time
+- Calculate COVID-19 mortality rate by state
+- Create a tool that will quickly visualize the data using tables and charts
+- Allow user to search by either state or date and sort data by columns
+- Allow user to plot the data and fit a linear regression model
+- Calculate R-squared value
 
 ## Libraries used:
 
