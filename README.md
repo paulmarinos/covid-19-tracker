@@ -16,18 +16,15 @@ https://github.com/nytimes/covid-19-data/blob/master/us-states.csv
 - sklearn for statistical modeling
 
 
-## Objectives: 
+## Purpose: 
 
 - Analyze the number of COVID-19 cases and deaths by U.S. state over time
+- Calculate the R-squared value to find correlation between cases and deaths
 - Calculate COVID-19 mortality rate by state
-- Create a tool that will quickly visualize the data using tables and charts
-- Allow user to search by either state or date and sort data by columns
-- Allow user to plot the data and fit a linear regression model
-- Calculate R-squared value
+- Visualize the data using tables and charts
+- Search by either state or date then sort columns
+- Plot the data and fit a linear regression model
 
 
-## R-squared value:
-
-The Rsquared value, or correlation of determination, explains how closely correlated the dependent value (cases) is with the independent value (deaths). 
 
 
