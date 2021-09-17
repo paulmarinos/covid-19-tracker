@@ -3,7 +3,7 @@
 view covid-19 statistics by either U.S. state or date and perform simple linear regression analysis.
 
 
-## Datasource - us-states:
+## Datasource:
 
 
 https://github.com/nytimes/covid-19-data/blob/master/us-states.csv 
