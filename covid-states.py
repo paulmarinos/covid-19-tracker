@@ -18,14 +18,14 @@ df['mort rate'] = df.deaths / df.cases * 100
 
 
 def filter_state(df):
-	state = input('State: ')
+	state = input("State (eg. 'New York'): ")
 	is_state = (df['state'] == state)
 	df = df[is_state]
 	print('\n', df, '\n')
 	sort_by_column(df)
 
 def filter_date(df):
-	date = input('Date (YYYY-MM-DD): ')
+	date = input('Date (M-D-YY): ')
 	is_date = (df['date'] == date)
 	df = df[is_date]
 	print('\n', df, '\n')
@@ -41,8 +41,8 @@ def plot_regression(df):
 	is_state = (df['state'] == state)
 	df = df[is_state]
 
-	X = df['cases'].values.reshape(-1, 1)  
-	Y = df['deaths'].values.reshape(-1, 1)  
+	X = df['cases'].values.reshape(-1, 1)
+	Y = df['deaths'].values.reshape(-1, 1)
 	linear_regressor = LinearRegression()
 	linear_regressor.fit(X, Y)
 	Y_pred = linear_regressor.predict(X)
@@ -69,11 +69,7 @@ def options():
 		print ('Error: Invalid Input')
 		options()
 
-def main():	
+def main():
 	options()
 
-main()	
-
-
-
-
+main()
